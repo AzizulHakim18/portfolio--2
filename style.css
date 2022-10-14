@@ -306,10 +306,57 @@ i {
     }
 }
 
-.title-name:hover {
-    transform: translate3d(0, -10px, 22px);
-    color: #ff0266;
+/* about section button and show andother text */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
 
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* servise section */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.service-card {
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    padding: 1.5rem;
+    margin: 1rem;
+    transition: ease-in-out;
+    transition-delay: 150ms;
+    cursor: pointer;
+
+}
+
+.service-card:hover {
+    transform: scale(1.1);
+    background-color: rgb(244 63 94);
+    color: white;
+    transition-duration: 300ms;
 }
 
 /* google chart css */
@@ -327,39 +374,6 @@ i {
     height: 700px;
 }
 
-
-
-
-.circle-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.circle {
-    width: 200px;
-    height: 200px;
-    background-color: #1e1f26;
-    color: #03dac6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-.triangle {
-    width: 40px;
-    height: 50px;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 40px solid #1e1f26;
-    -ms-transform: rotate(-40deg);
-    transform: rotate(-50deg);
-    transform-origin: -100% 40%;
-
-}
 
 /* contact section */
 

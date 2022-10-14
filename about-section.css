@@ -1,0 +1,11 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.about-img img {
+    width: 100%;
+}

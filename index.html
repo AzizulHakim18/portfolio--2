@@ -8,6 +8,7 @@
     <title>Azizul Hakim Rony</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="about-section.css">
 
     <!-- font awosome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -63,18 +64,98 @@
 
     <!-- \\\\\\\\\\\\\\\\\\\\\\About Me section///////////////////////// -->
     <section class="container">
-        <div>
-            <h1 class="title-name">Everything About Me</h1>
-        </div>
-        <div>
-            <p class="text-size">Hello! My name is Rony and I enjoy creating things that live on the internet. My
-                interest in web
-                development started back in 2020 when I decided to try editing custom Tumblr themes — turns out hacking
-                together a custom reblog button taught me a lot about HTML & CSS!</p>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="/img/profile-pic.jpg" alt="">
+            </div>
+            <div>
+                <div>
+                    <h1 class="title-name">Everything About Me</h1>
+                </div>
+                <div>
+                    <p class="text-size">Hello! My name is Rony and I enjoy creating things that live on the internet.
+                        My
+                        interest in web
+                        development started back in 2020 when I decided to try editing custom Tumblr themes — turns out
+                        hacking
+                        together a custom reblog button taught me a lot about HTML & CSS!</p>
+                </div>
+                <div>
+                    <div id="London" class="tabcontent text-size">
+                        <p>User experience design - UI/UX
+                            Delight the user and make it work.</p>
+                        <p>Web and user interface design - Development
+                            Websites, web experiences, ...</p>
+                        <p>Interaction design - Animation
+                            I like to move it move it.</p>
+                    </div>
+
+                    <div id="Paris" class="tabcontent text-size">
+                        <p>Awwwards.com - Winner
+                            2019 - 2020</p>
+                        <p>CSS Design Awards - Winner
+                            2017 - 2018</p>
+                        <p> Design nominees - site of the day
+                            2013- 2014</p>
+                    </div>
+
+                    <div id="Tokyo" class="tabcontent text-size">
+                        <p>Sr. Front-end Engineer - Google
+                            2018 - Current</p>
+                        <p>Front-end Engineer - Microsoft
+                            2017 - 2018</p>
+                        <p>Software Engineer - Alibaba
+                            2013- 2014</p>
+                    </div>
+
+                    <div id="Oslo" class="tabcontent text-size">
+                        <p>BSc In CSE - ABC University, Los Angeles, CA
+                            2010</p>
+                        <p> Diploma in Computer Science - Gamma Technical Institute
+                            2009</p>
+                        <p>Graphic Designer - ABC Institute, Los Angeles, CA
+                            2007</p>
+                    </div>
+
+                    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Main
+                        Skils</button>
+                    <button class="tablink" onclick="openCity('Paris', this, 'green')">Awards</button>
+                    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Experience</button>
+                    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Education</button>
+
+                </div>
+            </div>
         </div>
     </section>
 
-
+    <!-- my awosomw services part -->
+    <section class="container">
+        <div>
+            <h1>My awosome services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, aperiam! Asperiores corrupti
+                deserunt nam, blanditiis dolores recusandae velit reprehenderit commodi?</p>
+        </div>
+        <div class="service-grid">
+            <div class="service-card">
+                <h1>web development</h1>
+            </div>
+            <div class="service-card">
+                <h1>web development</h1>
+            </div>
+            <div class="service-card">
+                <h1>web development</h1>
+            </div>
+            <div class="service-card">
+                <h1>web development</h1>
+            </div>
+            <div class="service-card">
+                <h1>web development</h1>
+            </div>
+            <div class="service-card">
+                <h1>web development</h1>
+            </div>
+        </div>
+    </section>
 
     <!-- \\\\\\\\\\\\\\\\\\\\\\My Skills section///////////////////////// -->
 
