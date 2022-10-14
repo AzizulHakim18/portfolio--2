@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azizul Hakim Rony</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- google chart link -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\Front page///////////////////////// -->
+    <section class="particle">
+        <!-- navbar section -->
+        <div id="mySidenav" class="sidenav-container">
+
+            <span class="drawer-close-button">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </span>
+
+            <a href="#home" onclick="closeNav()" id="home-link">Home</a>
+            <a href="#about" onclick="closeNav()" id="about-link">About Me</a>
+            <a href="#works" onclick="closeNav()" id="works-link">My WorkS</a>
+            <a href="#contact" onclick="closeNav()" id="contact-link">Contact Me</a>
+
+        </div>
+
+
+        <div class="backdrop-container" id="backdrop"></div>
+
+
+        <nav>
+            <span onclick="openNav()" class="mobile-nav-open-icon">&#9776;</span>
+        </nav>
+        <div id="particles-js">
+            <!-- title name -->
+            <div class="particle-container">
+                <div class="title-center">
+                    <div class="title-name">
+                        <h1>
+                            <i></i>
+                            <span id="a">AZIZUL</span>
+                            <span id="b">HAKIM</span>
+                            <span id="c">RONY</span>
+                        </h1>
+                    </div>
+
+                    <div class="title-center">
+                        <h2 class="title-work">JUNIOR WEB DEVELOPER.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\About Me section///////////////////////// -->
+    <section class="container">
+        <div>
+            <h1 class="title-name">Everything About Me</h1>
+        </div>
+        <div>
+            <p class="text-size">Hello! My name is Rony and I enjoy creating things that live on the internet. My
+                interest in web
+                development started back in 2020 when I decided to try editing custom Tumblr themes — turns out hacking
+                together a custom reblog button taught me a lot about HTML & CSS!</p>
+        </div>
+    </section>
+
+
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\My Skills section///////////////////////// -->
+
+    <section class="container">
+        <div class="chart">
+            <div id="myChart"></div>
+        </div>
+    </section>
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\Creative Works shows///////////////////////// -->
+
+
+
+    <section class="container">
+        <div>
+            <h1>My Portfolio</h1>
+        </div>
+        <div class="showcase">
+
+
+            <a href="https://glittery-sherbet-6d33d9.netlify.app/" class="item">1</a>
+            <a href="" class="item">2</a>
+            <a href="" class="item">3</a>
+            <a href="" class="item">4</a>
+            <a href="" class="item">5</a>
+            <a href="" class="item">6</a>
+            <a href="" class="item">7</a>
+            <a href="" class="item">8</a>
+            <a href="" class="item">9</a>
+            <a href="" class="item">10</a>
+            <a href="" class="item">11</a>
+        </div>
+
+    </section>
+
+
+    <section class="container">
+        <div class="circle-center">
+            <div class="circle">
+                <div class="triangle"></div>
+                <p>I am available for <br>
+                    freelace work</p>
+            </div>
+        </div>
+        </div>
+        <div class="circle-center">
+            <h3>hakimrony18@gmail.com</h3>
+        </div>
+    </section>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\Contact Page///////////////////////// -->
+
+    <section class="container">
+        <div class="contain">
+
+            <div class="wrapper">
+
+                <div class="form">
+                    <h4>GET IN TOUCH</h4>
+                    <h2 class="form-headline">Send me a message</h2>
+                    <form id="submit-form" action="">
+                        <p>
+                            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                            <small class="name-error"></small>
+                        </p>
+                        <p>
+                            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                            <small class="name-error"></small>
+                        </p>
+                        <p class="full-width">
+                            <input id="company-name" class="form-input" type="text" placeholder="Company Name*"
+                                required>
+                            <small></small>
+                        </p>
+                        <p class="full-width">
+                            <textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*"
+                                required></textarea>
+                            <small></small>
+                        </p>
+                        <p class="full-width">
+                            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive
+                            communications by call / email about Company's services.
+                        </p>
+                        <p class="full-width">
+                            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                            <button class="reset-btn" onclick="reset()">Reset</button>
+                        </p>
+                    </form>
+                </div>
+
+                <div class="contacts contact-wrapper">
+
+                    <ul>
+                        <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+                                billion</span> for our clients. Ready to know
+                            how we can help you?</li>
+                        <span class="hightlight-contact-info">
+                            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111
+                                    2900</span></li>
+                        </span>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- for particle cdn link and code -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particle.json', function () {
+            console.log('particles.json.....');
+        });
+
+    </script>
+    <!-- ///////////-->
+
+
+
+
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>©Copyright 2016 Designer | All RightReserved.</p>
+</footer>
+
+</html>
