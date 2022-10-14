@@ -12,9 +12,13 @@
 
 body {
     font-family: "ROBOTO", sans-serif;
+
 }
 
 .container {
+
+    display: grid;
+    place-items: center;
     text-align: center;
     margin-top: 5%;
     padding-top: 10%;
@@ -310,6 +314,7 @@ i {
 
 /* google chart css */
 .chart {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,26 +323,12 @@ i {
 }
 
 #myChart {
-    width: 100%;
+    width: 80%;
     height: 700px;
 }
 
-.showcase {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
 
-.item {
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    padding-top: 75px;
-    background: #ccc;
-    text-align: center;
-    color: #FFF;
-    font-size: 3em;
-}
+
 
 .circle-center {
     display: flex;
