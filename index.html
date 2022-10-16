@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azizul Hakim Rony</title>
+    <!-- all css file -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="card.css">
-    <link rel="stylesheet" href="about-section.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/about-section.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/google-chart.css">
+    <link rel="stylesheet" href="css/service-section.css">
 
     <!-- font awosome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -18,66 +22,68 @@
 
 <body>
     <!-- \\\\\\\\\\\\\\\\\\\\\\Front page///////////////////////// -->
-    <section class="particle">
-        <!-- navbar section -->
-        <div id="mySidenav" class="sidenav-container">
+    <main>
+        <section class="particle">
+            <!-- navbar section -->
+            <div id="mySidenav" class="sidenav-container">
 
-            <span class="drawer-close-button">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            </span>
+                <span class="drawer-close-button">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </span>
 
-            <a href="#home" onclick="closeNav()" id="home-link">Home</a>
-            <a href="#about" onclick="closeNav()" id="about-link">About Me</a>
-            <a href="#works" onclick="closeNav()" id="works-link">My WorkS</a>
-            <a href="#contact" onclick="closeNav()" id="contact-link">Contact Me</a>
+                <a href="#home" onclick="closeNav()" id="home-link">Home</a>
+                <a href="#about" onclick="closeNav()" id="about-link">About Me</a>
+                <a href="#works" onclick="closeNav()" id="works-link">My WorkS</a>
+                <a href="#contact" onclick="closeNav()" id="contact-link">Contact Me</a>
 
-        </div>
-
-
-        <div class="backdrop-container" id="backdrop"></div>
+            </div>
 
 
-        <nav>
-            <span onclick="openNav()" class="mobile-nav-open-icon">&#9776;</span>
-        </nav>
-        <div id="particles-js">
-            <!-- title name -->
-            <div class="particle-container">
-                <div class="title-center">
-                    <div class="title-name">
-                        <h1>
-                            <i class="title-name-style"></i>
-                            <span id="a">AZIZUL</span>
-                            <span id="b">HAKIM</span>
-                            <span id="c">RONY</span>
-                        </h1>
-                    </div>
+            <div class="backdrop-container" id="backdrop"></div>
 
-                    <div class="title-center title-center-margin">
-                        <h2 class="title-work">JUNIOR WEB DEVELOPER.</h2>
-                    </div>
-                    <div class="title-center-margin">
-                        <button>HIRE ME</button>
-                        <button>DOWNLOAD MY CV</button>
-                    </div>
-                    <div class="title-icon">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-github"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
+
+            <nav>
+                <span onclick="openNav()" class="mobile-nav-open-icon">&#9776;</span>
+            </nav>
+            <div id="particles-js">
+                <!-- title name -->
+                <div class="particle-container">
+                    <div class="title-center">
+                        <div class="title-name">
+                            <h1>
+                                <i class="title-name-style"></i>
+                                <span id="a">AZIZUL</span>
+                                <span id="b">HAKIM</span>
+                                <span id="c">RONY</span>
+                            </h1>
+                        </div>
+
+                        <div class="title-center title-center-margin">
+                            <h2 class="title-work">JUNIOR WEB DEVELOPER.</h2>
+                        </div>
+                        <div class="title-center-margin">
+                            <button>HIRE ME</button>
+                            <button>DOWNLOAD MY CV</button>
+                        </div>
+                        <div class="title-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
 
     <!-- \\\\\\\\\\\\\\\\\\\\\\About Me section///////////////////////// -->
     <section class="container">
 
         <div>
-            <h1 class="title-name">Everything About Me</h1>
+            <h1 class="front-name">ABOUT ME</h1>
         </div>
 
         <div class="about-container">
@@ -86,7 +92,7 @@
             </div>
             <div>
 
-                <div>
+                <div class="about-text">
                     <p class="text-size">Hello! My name is Rony and I enjoy creating things that live on the internet.
                         My
                         interest in web
@@ -131,11 +137,11 @@
                             2007</p>
                     </div>
 
-                    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Main
+                    <button class="tablink" onclick="openCity('London', this, 'green')" id="defaultOpen">Main
                         Skils</button>
                     <button class="tablink" onclick="openCity('Paris', this, 'green')">Awards</button>
-                    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Experience</button>
-                    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Education</button>
+                    <button class="tablink" onclick="openCity('Tokyo', this, 'green')">Experience</button>
+                    <button class="tablink" onclick="openCity('Oslo', this, 'green')">Education</button>
 
                 </div>
             </div>
@@ -145,8 +151,9 @@
     <!-- my awosomw services part -->
     <section class="container">
         <div>
-            <h1>My awosome services</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, aperiam! Asperiores corrupti
+            <h1 class="front-name">My AWSOME SERVICES</h1>
+            <p class="text-size">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, aperiam!
+                Asperiores corrupti
                 deserunt nam, blanditiis dolores recusandae velit reprehenderit commodi?</p>
         </div>
         <div class="service-grid">
@@ -175,8 +182,8 @@
 
     <section class="container">
         <div>
-            <h1>
-                My skills
+            <h1 class="front-name">
+                MY SKILLS
             </h1>
         </div>
         <div class="chart">
@@ -190,7 +197,7 @@
 
     <section class="container">
         <div>
-            <h1>My Portfolio</h1>
+            <h1 class="front-name">My Portfolio</h1>
         </div>
         <section class="hero-section">
             <div class="card-grid">
@@ -248,6 +255,12 @@
     <!-- \\\\\\\\\\\\\\\\\\\\\\Contact Page///////////////////////// -->
 
     <section class="container">
+
+        <div>
+            <h1 class="front-name">
+                CONTACT ME
+            </h1>
+        </div>
         <div class="contain">
 
             <div class="wrapper">
@@ -329,7 +342,8 @@
     <script src="script.js"></script>
 </body>
 <footer>
-    <p>©Copyright 2016 Designer | All RightReserved.</p>
+    <p>©Copyright 2022 Designer | All Right Reserved by</p><br>
+    <span>AZIZUL HAKIM RONY</span>
 </footer>
 
 </html>

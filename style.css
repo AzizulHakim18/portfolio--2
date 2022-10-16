@@ -24,12 +24,7 @@ body {
     padding-top: 10%;
 }
 
-.text-size {
-    font-family: "ROBOTO", sans-serif;
-    font-size: 2vw;
-    font-weight: 300;
-    margin-top: 20px;
-}
+
 
 /* navbar css started */
 .backdrop-container {
@@ -317,280 +312,24 @@ span {
 }
 
 .title-icon i {
+    color: #28CB8B;
     margin-right: 10px;
     padding-right: 10px;
     font-size: x-large;
 }
 
-/* about section button and show andother text */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-}
-
-.tablink:hover {
-    background-color: #777;
-}
-
-/* Style the tab content */
-.tabcontent {
-    color: black;
-    display: none;
-    padding: 50px;
-    text-align: center;
-}
-
-/* servise section */
-
-@media(min-width: 390px) {
-    .service-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem;
-        padding: 2rem;
-    }
-}
-
-@media(min-width: 560px) {
-    .service-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem;
-        padding: 2rem;
-    }
-}
-
-@media(min-width: 960px) {
-    .service-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem;
-        padding: 2rem;
-    }
-}
-
-.service-card {
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    padding: 1.5rem;
-    margin: 1rem;
-    transition: ease-in-out;
-    transition-delay: 150ms;
-    cursor: pointer;
-
-}
-
-.service-card:hover {
-    transform: scale(1.1);
-    background-color: rgb(244 63 94);
-    color: white;
-    transition-duration: 300ms;
-}
-
-/* google chart css */
-.chart {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-}
-
-#myChart {
-    width: 80%;
-    height: 700px;
-}
 
 
-/* contact section */
 
-.contain {
-    background-color: #eee;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-}
-
-div.form {
-    background-color: #eee;
-}
-
-.contact-wrapper {
-    margin: auto 0;
-}
-
-.submit-btn {
-    float: left;
-}
-
-.reset-btn {
-    float: right;
-}
-
-.form-headline:after {
-    content: "";
-    display: block;
-    width: 10%;
-    padding-top: 10px;
-    border-bottom: 3px solid #ec1c24;
-}
-
-.highlight-text {
-    color: #ec1c24;
-}
-
-.hightlight-contact-info {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 1.5;
-}
-
-.highlight-text-grey {
-    font-weight: 500;
-}
-
-.email-info {
-    margin-top: 20px;
-}
-
-::-webkit-input-placeholder {
-    /* Chrome */
-    font-family: "Roboto", sans-serif;
-}
-
-.required-input {
-    color: black;
-}
-
-@media (min-width: 600px) {
-    .contain {
-        padding: 0;
-    }
-}
-
-h3,
-ul {
-    margin: 0;
-}
-
-h3 {
-    margin-bottom: 1rem;
-}
-
-.form-input:focus,
-textarea:focus {
-    outline: 1.5px solid #ec1c24;
-}
-
-.form-input,
-textarea {
-    width: 100%;
-    border: 1px solid #bdbdbd;
-    border-radius: 5px;
-}
-
-.wrapper>* {
-    padding: 1em;
-}
-
-@media (min-width: 700px) {
-    .wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-    .wrapper>* {
-        padding: 2em 2em;
-    }
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-.contacts {
-    color: #212d31;
-}
-
-.form {
-    background: #fff;
-}
-
-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
-
-form label {
-    display: block;
-}
-
-form p {
-    margin: 0;
-}
-
-.full-width {
-    grid-column: 1 / 3;
-}
-
-button,
-.submit-btn,
-.form-input,
-textarea {
-    padding: 1em;
-}
-
-button,
-.submit-btn {
-    background: transparent;
-    border: 1px solid #ec1c24;
-    color: #ec1c24;
-    border-radius: 15px;
-    padding: 5px 20px;
-    text-transform: uppercase;
-}
-
-button:hover,
-.submit-btn:hover,
-button:focus,
-.submit-btn:focus {
-    background: #ec1c24;
-    outline: 0;
-    color: #eee;
-}
-
-.error {
-    color: #ec1c24;
-}
-
+/* footer section */
 
 footer {
     background-color: #1e1f26;
-    color: #03dac6;
+    color: #28CB8B;
     width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100px;
+    display: grid;
+    place-items: center;
     margin-top: 10px;
     padding-top: 20px;
 
