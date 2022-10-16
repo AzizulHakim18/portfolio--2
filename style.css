@@ -185,7 +185,7 @@ span {
     animation-duration: calc(2s / 1.4);
 }
 
-i {
+.title-name-style {
     display: flex;
     position: absolute;
     height: 4rem;
@@ -294,6 +294,7 @@ i {
     font-size: 2em;
 }
 
+
 @keyframes typing {
     from {
         width: 0
@@ -304,6 +305,21 @@ i {
     50% {
         border-color: transparent
     }
+}
+
+.title-center-margin {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.title-icon {
+    display: flex;
+}
+
+.title-icon i {
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: x-large;
 }
 
 /* about section button and show andother text */
@@ -332,14 +348,41 @@ i {
 }
 
 /* servise section */
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    padding: 2rem;
+
+@media(min-width: 390px) {
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media(min-width: 560px) {
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media(min-width: 960px) {
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        padding: 2rem;
+    }
 }
 
 .service-card {
