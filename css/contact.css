@@ -14,6 +14,7 @@ div.form {
 
 .contact-wrapper {
     margin: auto 0;
+
 }
 
 .submit-btn {
@@ -107,7 +108,11 @@ ul {
 }
 
 .contacts {
-    color: #212d31;
+    color: #28CB8B;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .form {
@@ -162,4 +167,36 @@ button:focus,
 
 .error {
     color: #28CB8B;
+}
+
+@media(max-width: 600px) {
+
+    button,
+    .submit-btn,
+    .form-input,
+    textarea {
+        padding: 1em;
+    }
+
+    button,
+    .submit-btn {
+        font-size: 10px;
+        font-weight: bold;
+        background: transparent;
+        border: 1px solid #28CB8B;
+        color: #28CB8B;
+        border-radius: 15px;
+        padding: 7px 15px;
+        text-transform: uppercase;
+    }
+
+    button:hover,
+    .submit-btn:hover,
+    button:focus,
+    .submit-btn:focus {
+        background: #28CB8B;
+        outline: 0;
+        color: #eee;
+    }
+
 }

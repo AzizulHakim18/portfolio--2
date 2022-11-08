@@ -12,18 +12,16 @@
 
 body {
     font-family: "ROBOTO", sans-serif;
-
+    background-color: #ecfffd;
 }
 
 .container {
 
     display: grid;
     place-items: center;
-    text-align: center;
     margin-top: 5%;
     padding-top: 10%;
 }
-
 
 
 /* navbar css started */

@@ -10,25 +10,22 @@
 .front-name {
     margin: 0;
     color: #28CB8B;
-    font-size: 4vw;
-    display: inline-flex;
-    align-items: flex-start;
+    font-size: 50px;
+    text-align: center;
     flex-direction: column;
     line-height: 1.2;
 }
 
+
 .text-size {
     font-family: "ROBOTO", sans-serif;
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: 300;
     margin-top: 20px;
+    text-align: justify;
 }
 
-.about-img img {
-    width: 100%;
-    /* margin: 1vw;
-    padding: 3vw; */
-}
+
 
 .about-text {
     margin: 1vw;
@@ -62,7 +59,7 @@
 }
 
 
-@media(min-width: 390px) {
+@media(min-width: 360px) {
     .about-container {
         display: grid;
         place-items: center;
@@ -73,13 +70,15 @@
     .tablink {
         background-color: #28CB8B;
         color: white;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 7px 8px;
-        font-size: 10px;
-        width: 25%;
+        padding: 4px 6px;
+        font-size: 8px;
+
+    }
+}
+
+@media(max-width: 600px) {
+    .about-img img {
+        width: 100%;
     }
 }
 
@@ -95,9 +94,6 @@
     .tablink {
         background-color: #28CB8B;
         color: white;
-        float: left;
-        border: none;
-        outline: none;
         cursor: pointer;
         padding: 14px 16px;
         font-size: 17px;
