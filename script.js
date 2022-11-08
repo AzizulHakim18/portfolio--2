@@ -36,12 +36,12 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     const data = google.visualization.arrayToDataTable([
         ['Skills', 'Percentage', { role: 'style' }],
-        ['HTML', 90, 'color: gray'],
-        ['CSS', 85, 'color: #76A7FA'],
-        ['BOOTSTRAP', 90, 'color: #76A7FA'],
-        ['TAILWIND', 80, 'color: #76A7FA'],
-        ['JAVASCRIPT', 65, 'color: #76A7FA'],
-        ['REACT JS', 60, 'color: #76A7FA']
+        ['HTML', 90, 'color: #28CB8B'],
+        ['CSS', 85, 'color: #28CB8B'],
+        ['BOOTSTRAP', 90, 'color:  #28CB8B'],
+        ['TAILWIND', 80, 'color:  #28CB8B'],
+        ['JAVASCRIPT', 65, 'color:  #28CB8B'],
+        ['REACT JS', 60, 'color:  #28CB8B']
     ]);
 
     const options = {
