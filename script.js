@@ -41,7 +41,11 @@ function drawChart() {
         ['BOOTSTRAP', 90, 'color:  #28CB8B'],
         ['TAILWIND', 80, 'color:  #28CB8B'],
         ['JAVASCRIPT', 65, 'color:  #28CB8B'],
-        ['REACT JS', 60, 'color:  #28CB8B']
+        ['REACT JS', 60, 'color:  #28CB8B'],
+        ['REACT ROUTER', 60, 'color:  #28CB8B'],
+        ['FIREBASE', 50, 'color:  #28CB8B'],
+        ['MongoDB', 50, 'color:  #28CB8B'],
+        ['EXPRESS JS', 40, 'color:  #28CB8B'],
     ]);
 
     const options = {
