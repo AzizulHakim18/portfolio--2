@@ -1,7 +1,7 @@
 /* contact section */
 
 .contain {
-    background-color: #eee;
+    background-color: rgb(238, 238, 238);
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +9,7 @@
 }
 
 div.form {
-    background-color: #eee;
+    background-color: rgb(238, 238, 238);
 }
 
 .contact-wrapper {
@@ -111,7 +111,7 @@ ul {
     color: #28CB8B;
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: 600;
 }
 

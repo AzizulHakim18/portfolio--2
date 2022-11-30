@@ -23,7 +23,7 @@
 <body>
     <!-- \\\\\\\\\\\\\\\\\\\\\\Front page///////////////////////// -->
     <main>
-        <section class="particle">
+        <section id="home" class="particle">
             <!-- navbar section -->
             <div id="mySidenav" class="sidenav-container">
 
@@ -33,7 +33,7 @@
 
                 <a href="#home" onclick="closeNav()" id="home-link">Home</a>
                 <a href="#about" onclick="closeNav()" id="about-link">About Me</a>
-                <a href="#works" onclick="closeNav()" id="works-link">My WorkS</a>
+                <a href="#works" onclick="closeNav()" id="works-link">My Works</a>
                 <a href="#contact" onclick="closeNav()" id="contact-link">Contact Me</a>
 
             </div>
@@ -62,15 +62,20 @@
                             <h2 class="title-work">JUNIOR WEB DEVELOPER.</h2>
                         </div>
                         <div class="title-center-margin">
-                            <button>HIRE ME</button>
-                            <button>DOWNLOAD MY CV</button>
+                            <a href="#contact"> <button>HIRE ME</button></a>
+                            <a href="cv/Azizul_Hakim Rony_cv.pdf" target="_blank" download="true"><button>DOWNLOAD MY
+                                    CV</button></a>
                         </div>
                         <div class="title-icon">
-                            <i class="fa-brands fa-linkedin"></i>
-                            <i class="fa-brands fa-github"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-twitter"></i>
+                            <a href="https://www.linkedin.com/in/azizul-hakim-9757bb228/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/AzizulHakim18"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/asgardian_godzz/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100077263034519"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/hakimrony18"><i class="fa-brands fa-twitter"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -80,14 +85,14 @@
 
 
     <!-- \\\\\\\\\\\\\\\\\\\\\\About Me section///////////////////////// -->
-    <section class="container">
+    <section id="about" class="container ">
 
         <div>
             <h1 class="front-name">ABOUT ME</h1>
         </div>
 
         <div class="about-container">
-            <div class="about-img">
+            <div class="about-img ">
                 <img src="/img/azizul_hakim_rony.png" alt="">
             </div>
             <div>
@@ -214,48 +219,64 @@
 
 
 
-    <section class="container">
+    <section id="works" class="container">
         <div>
             <h1 class="front-name">My Portfolio</h1>
         </div>
         <section class="hero-section">
             <div class="card-grid">
-                <a class="card" href="#">
+                <a class="card" href="https://startling-faloodeh-ddd143.netlify.app">
                     <div class="card__background"
-                        style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)">
+                        style="background-image: url(https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80)">
                     </div>
                     <div class="card__content">
-                        <p class="card__category">Category</p>
-                        <h3 class="card__heading">Example Card Heading</h3>
+                        <h3 class="card__category">Javascript, Tailwind CSS ,HTML</h3>
+                        <p class="card__heading">Simple login form user can login by email:sontan@baperhotel and
+                            pass:secret then go to the next page.</p>
                     </div>
                 </a>
-                <a class="card" href="#">
+                <a class="card" href="https://glowing-chimera-4d0635.netlify.app/">
                     <div class="card__background"
-                        style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+                        style="background-image: url(https://images.unsplash.com/photo-1541560052-5e137f229371?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHR5cGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)">
                     </div>
                     <div class="card__content">
-                        <p class="card__category">Category</p>
-                        <h3 class="card__heading">Example Card Heading</h3>
+                        <p class="card__category">Javascript,CSS,HTML</p>
+                        <h3 class="card__heading">Simple touch typing site.User can check their result and also save in
+                            the bottom section their previous result.</h3>
                     </div>
                 </a>
-                <a class="card" href="#">
+                <a class="card" href="https://heartfelt-chebakia-882c23.netlify.app/">
                     <div class="card__background"
-                        style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+                        style="background-image: url(https://images.unsplash.com/photo-1602082430164-0c1927ddecb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHNob3Bpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)">
                     </div>
                     <div class="card__content">
-                        <p class="card__category">Category</p>
-                        <h3 class="card__heading">Example Card Heading</h3>
+                        <p class="card__category">React,React Router,CSS</p>
+                        <h3 class="card__heading">E-commerce site where user can add products and also delete from the
+                            cart which can not like. And also see the order summery.</h3>
                     </div>
-                    </li>
-                    <a class="card" href="#">
+
+                    <a class="card" href="https://tubular-churros-629113.netlify.app/">
                         <div class="card__background"
-                            style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+                            style="background-image: url(https://images.unsplash.com/photo-1665413811904-bc5bc4c7f013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fFByZW1pZXIlMjBsZWFndWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)">
                         </div>
                         <div class="card__content">
-                            <p class="card__category">Category</p>
-                            <h3 class="card__heading">Example Card Heading</h3>
+                            <p class="card__category">Javascript,CSS,HTML</p>
+                            <h3 class="card__heading">Simple web site where user can add heighest 5 player if click more
+                                then alert to user that can show a massege. After adding player user can also set the
+                                player amount and other then calculate the whole function.</h3>
                         </div>
                     </a>
+                    <a class="card" href="https://preeminent-manatee-3d8d11.netlify.app/">
+                        <div class="card__background"
+                            style="background-image: url(https://images.unsplash.com/photo-1615719413546-198b25453f85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)">
+                        </div>
+                        <div class="card__content">
+                            <p class="card__category">React,CSS</p>
+                            <h3 class="card__heading">Simple food site where user can search the food and also check how
+                                many results are found.</h3>
+                        </div>
+                    </a>
+
                     <div>
         </section>
 
@@ -273,7 +294,7 @@
 
     <!-- \\\\\\\\\\\\\\\\\\\\\\Contact Page///////////////////////// -->
 
-    <section class="container">
+    <section id="contact" class="container">
 
         <div>
             <h1 class="front-name">
@@ -287,7 +308,7 @@
                 <div class="form">
                     <h4>GET IN TOUCH</h4>
                     <h2 class="form-headline">Send me a message</h2>
-                    <form id="submit-form" action="">
+                    <form id="submit-form" action="" onsubmit="sendemail(); reset(); return false;">
                         <p>
                             <input id="name" class="form-input" type="text" placeholder="Your Name*">
                             <small class="name-error"></small>
@@ -319,6 +340,12 @@
 
                 <div class=" contact-wrapper">
 
+                    <div class="contacts"><i class="fa-sharp fa-solid fa-location-dot service-icon"></i>
+                        <p> Dhaka,Bangladesh.</p>
+                    </div>
+                    <div class="contacts"><i class="fa-solid fa-user-graduate service-icon"></i>
+                        <p>Military Institute of Science and Technology,Mirpur,Dhaka.</p>
+                    </div>
                     <div class="contacts"><i class="fa-sharp fa-solid fa-envelope service-icon"></i>
                         <p> azizulhakimrony18@gmail.com</p>
                     </div>
@@ -355,7 +382,7 @@
 
 
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 <footer>

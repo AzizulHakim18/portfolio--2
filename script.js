@@ -105,3 +105,17 @@ function reset() {
     messageEl = "";
     document.querySelector(".name-error").innerText = "";
 }
+
+function sendemail() {
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "Azizul Hakim",
+        Password: "294985rony",
+        To: 'hakimrony18@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: "New contact",
+        Body: "And this is the body"
+    }).then(
+        message => alert(message)
+    );
+}
