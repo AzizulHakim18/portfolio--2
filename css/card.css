@@ -101,6 +101,14 @@
     text-transform: uppercase;
 }
 
+.card__title {
+    color: var(--text-lighter);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
 .card__heading {
     color: var(--text-lighter);
     font-size: 1.5rem;
